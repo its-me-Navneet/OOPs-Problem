@@ -26,6 +26,9 @@ public class StockAccount implements StockInterface {
             if (alreadyBuy == null) {
                 list.add(new Stock(name, noOfShare, stock.getSharePrice()));
             }
+            else{
+                alreadyBuy.setNoOfShare(noOfShare + alreadyBuy.getNoOfShare());
+            }
             System.out.println("Succesfully stock added to your account ");
 
         } else {

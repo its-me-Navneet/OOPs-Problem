@@ -18,7 +18,7 @@ public class Main {
 
         StockAccount navneet = new StockAccount() ; 
         navneet.buy(12,"Tata");  // Buy stock if possible 
-        navneet.buy(120,"Tata");  
+        navneet.buy(5,"Tata");  
          navneet.printReport();
         navneet.sell(2, "Tata");   // selling stock if possible 
 
